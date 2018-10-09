@@ -1,0 +1,35 @@
+{
+  "name": "rasphotod",
+  "version": "1.0.0",
+  "description": "Rasphoto D - Raspberry Pi + DSLR Photobooth Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "info": "node camera_test.js",
+    "demo": "node three_photos.js && node photo_collage.js && node.composite.js",
+    "one-photo": "node one_photo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirtybirdnj/rasphotod.git"
+  },
+  "author": "Mat Gilbert <matgilbert@gmail.com> (http://www.matgilbert.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirtybirdnj/rasphotod/issues"
+  },
+  "homepage": "https://github.com/dirtybirdnj/rasphotod#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "aws-sdk": "^2.247.1",
+    "gphoto2": "^0.3.0",
+    "canvas": "2.0.0-alpha.13",
+    "jimp": "^0.2.28",
+    "keypress": "^0.2.1",
+    "moment": "^2.22.1",
+    "node-printer": "^1.0.2",
+    "photo-collage": "^1.0.0",
+    "segfault-handler": "^1.0.1",
+    "utf8": "^3.0.0"
+  }
+}
