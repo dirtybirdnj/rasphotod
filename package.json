@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "info": "node utils/camera_test.js",
     "demo": "node lib/three_photos.js && node lib/photo_collage.js && lib/node.composite.js",
-    "one-photo": "node lib/one_photo.js"
+    "one-photo": "node utils/one_photo.js"
   },
   "repository": {
     "type": "git",

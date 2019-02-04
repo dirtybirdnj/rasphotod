@@ -30,3 +30,5 @@ GPhoto.list(function (list) {
 module.exports = {
   cameraTest: test
 }
+
+//test();
