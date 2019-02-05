@@ -1,3 +1,3 @@
-const keypress = require('./keypress')
+const keypress = require('./lib/keypress')
 
 keypress.register()

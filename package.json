@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "info": "node camera_test.js",
-    "demo": "node three_photos.js && node photo_collage.js && node.composite.js",
-    "one-photo": "node one_photo.js"
+    "info": "node utils/camera_test.js",
+    "demo": "node lib/three_photos.js && node lib/photo_collage.js && lib/node.composite.js",
+    "one-photo": "node utils/one_photo.js",
+    "start" : "node index.js"
   },
   "repository": {
     "type": "git",
