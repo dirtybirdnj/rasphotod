@@ -5,6 +5,7 @@ const ts = Date.now();
 let filePath = `./output/image-${ts}.jpg`;
 let interval = false;
 
+console.log('tatking one photo');
 
 Camera.findFirst((err, activeCamera) => {
 
